@@ -22,9 +22,7 @@ class BD{
            die();
         }
         mysqli_set_charset($sql, "utf8");
-        return $sql;
-        $q ="SELECT * FROM `orders`";
-       
+        return $sql;       
     }
      /**
      *  Запрос к БД
